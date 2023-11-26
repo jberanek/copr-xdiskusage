@@ -28,20 +28,20 @@ Group:          Applications/System
 
 Name:           xdiskusage
 Version:        1.60
-Release:        0
+Release:        1
 Source:         %{name}-%{version}.tgz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 Url:            http://xdiskusage.sourceforge.net/
 BuildRequires:  fltk-devel
 BuildRequires:  gcc-c++
 BuildRequires:  libstdc++-devel
+BuildRequires:  fluid
 
 %if 0%{?fedora_version} || 0%{?rhel_version} || 0%{?centos_version}
 BuildRequires:  libX11-devel
 BuildRequires:  libXext-devel
 BuildRequires:  libXinerama-devel
 BuildRequires:  mesa-libGL-devel
-BuildRequires:  fluid
 %endif
 %if 0%{?suse_version}
 BuildRequires:  Mesa-devel
