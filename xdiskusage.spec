@@ -41,6 +41,7 @@ BuildRequires:  libX11-devel
 BuildRequires:  libXext-devel
 BuildRequires:  libXinerama-devel
 BuildRequires:  mesa-libGL-devel
+BuildRequires:  fluid
 %endif
 %if 0%{?suse_version}
 BuildRequires:  Mesa-devel
