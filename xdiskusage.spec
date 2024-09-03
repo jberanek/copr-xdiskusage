@@ -92,3 +92,4 @@ make prefix=$RPM_BUILD_ROOT/%{prefix} \
 %doc %attr(0644,root,root) %{mandir}/man1/*
 
 %changelog
+* v1.60 from upstream.
