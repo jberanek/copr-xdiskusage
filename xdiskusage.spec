@@ -35,7 +35,7 @@ Url:            http://xdiskusage.sourceforge.net/
 BuildRequires:  fltk-devel
 BuildRequires:  gcc-c++
 BuildRequires:  libstdc++-devel
-BuildRequires:  fluid
+#BuildRequires:  fluid
 
 %if 0%{?fedora_version} || 0%{?rhel_version} || 0%{?centos_version}
 BuildRequires:  libX11-devel
