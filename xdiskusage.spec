@@ -92,4 +92,5 @@ make prefix=$RPM_BUILD_ROOT/%{prefix} \
 %doc %attr(0644,root,root) %{mandir}/man1/*
 
 %changelog
-* v1.60 from upstream.
+* Thu Sep 5 2024 John Beranek <jberanek@users.sf.net>
+- v1.60 from upstream.
