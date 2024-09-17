@@ -74,8 +74,8 @@ and produce a PostScript version of the display.
 %setup -q
 
 %build
-export CXXFLAGS="$RPM_OPT_FLAGS"
-export CFLAGS="$RPM_OPT_FLAGS"
+export CXXFLAGS="$RPM_OPT_FLAGS -fPIE"
+export CFLAGS="$RPM_OPT_FLAGS -fPIE"
 ./configure --prefix=%prefix
 make
 
